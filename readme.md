@@ -1,5 +1,5 @@
 # Smaple Logo
-![Logo](https://imgur.com/a/IURpmXV.png)
+![Logo](https://i.imgur.com/Tn8ru7C.png)
 
 팀명 텍스트 및 팀명 로고 이미지 **(택1)**
 
