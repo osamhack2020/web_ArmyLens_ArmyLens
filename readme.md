@@ -1,7 +1,7 @@
-# Smaple Logo
+# ArmyLens Logo
 ![Logo](https://i.imgur.com/Tn8ru7C.png)
 
-팀명 텍스트 및 팀명 로고 이미지 **(택1)**
+머신러닝을 기반으로한 직관적인 지뢰 판별 어플
 
 ## 팀소개 및 프로잭트 설명 동영상
 [![Watch the video](https://img.youtube.com/vi/LjX3eVQdIyk/0.jpg)](https://www.youtube.com/watch?time_continue=117&v=LjX3eVQdIyk)
@@ -43,8 +43,8 @@ $ yarn start or npm run start
  샘플 에디터 [https://stackedit.io/app#](https://stackedit.io/app#)
  
 ## 팀 정보 (Team Information)
-- hong gil dong (hong999@gmail.com), Github Id: gildong999
-- kim su ji (suji999@gmail.com), Github Id: suji999
+- Park jun su(starkingstar@naver.com), Github Id: starkingstar@naver.com
+- You gun woo(pix_online@naver.com), Github Id: pix_online@naver.com
 
 ## 저작권 및 사용권 정보 (Copyleft / End User License)
  * [MIT](https://github.com/osam2020-WEB/Sample-ProjectName-TeamName/blob/master/license.md)
