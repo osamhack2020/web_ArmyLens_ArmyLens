@@ -1,10 +1,10 @@
 # ArmyLens Logo
 ![Logo](https://i.imgur.com/Tn8ru7C.png)
 
-머신러닝을 기반으로한 직관적인 지뢰 판별 어플
+ ArmyLens는 머신러닝을 기반으로한 일반인도 쉽게 사용가능한 직관적인 지뢰 판별 어플입니다.
 
 ## 팀소개 및 프로잭트 설명 동영상
-[![Watch the video](https://img.youtube.com/vi/LjX3eVQdIyk/0.jpg)](https://www.youtube.com/watch?time_continue=117&v=LjX3eVQdIyk)
+[추가예정]
 
 ## 기능 설계
  -  발사믹, 카카오 오븐 등 본인이 편한 목업 프레임워크를 이용하여 제작 후 링크 
@@ -31,16 +31,6 @@ $ git clone git주소
 $ yarn or npm install
 $ yarn start or npm run start
 ```
-
-## 프로젝트 사용법 (Getting Started)
-**마크다운 문법을 이용하여 자유롭게 기재**
-
-잘 모를 경우
-구글 검색 - 마크다운 문법
-[https://post.naver.com/viewer/postView.nhn?volumeNo=24627214&memberNo=42458017](https://post.naver.com/viewer/postView.nhn?volumeNo=24627214&memberNo=42458017)
-
- 편한 마크다운 에디터를 찾아서 사용
- 샘플 에디터 [https://stackedit.io/app#](https://stackedit.io/app#)
  
 ## 팀 정보 (Team Information)
 - Park jun su(starkingstar@naver.com), Github Id: starkingstar@naver.com
