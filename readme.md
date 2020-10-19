@@ -1,7 +1,7 @@
 # ArmyLens Logo
 ![Logo](https://i.imgur.com/Tn8ru7C.png)
 
- ArmyLens는 머신러닝을 기반으로한 일반인도 쉽게 사용가능한 직관적인 지뢰 판별 어플입니다.
+ ArmyLens는 머신러닝을 기반으로 제작된 직관적인 지뢰 식별 어플입니다.
 
 ## 팀소개 및 프로잭트 설명 동영상
 [추가예정]
