@@ -22,19 +22,27 @@ AI learning pipeline
 [추가예정]
 메뉴별 기능 
 ## 컴퓨터 구성 / 필수 조건 안내 (Prerequisites)
+사용 기술
+python 3.8
+react native
+visual studio code
 * ECMAScript 6 지원 브라우저 사용
 * 권장: Google Chrome 버젼 77 이상
 
-## 기술 스택 (Technique Used) (예시)
+## 기술 스택 (Technique Used)
 ### Server(back-end)
- -  nodejs, php, java 등 서버 언어 버전 
- - express, laravel, sptring boot 등 사용한 프레임워크 
- - DB 등 사용한 다른 프로그램 
+python
+css
+scss
+html
+javascript
+teachable machine
  
 ### front-end
- -  react.js, vue.js 등 사용한 front-end 프레임워크 
- -  UI framework
- - 기타 사용한 라이브러리
+Netlify
+teachable machine
+disqus
+proprofs
 
 ## 설치 안내 (Installation Process)
 ```bash
