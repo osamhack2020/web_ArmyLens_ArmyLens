@@ -1,9 +1,9 @@
-# ArmyLens Logo
+# 팀 소개 및 로고
 ![Logo](https://i.imgur.com/Tn8ru7C.png)
 
  ArmyLens는 AI(머신러닝)를 활용한 안보위협요소 식별,신고 어플입니다.
 
-## 팀소개 및 프로트 설명 동영상
+## 팀소개 및 프로젝트 설명 동영상
 [추가예정]
 
 ## 발표 동영상
