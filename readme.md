@@ -10,8 +10,11 @@
 [추가예정]
 
 ## 개발 과정
+# 1. 머신러닝
 AI learning pipeline
 ![Logo](https://i.imgur.com/iUYCfIU.png)
+
+# 2. 홈페이지
 ## 기능 설계
 [추가예정]
 
