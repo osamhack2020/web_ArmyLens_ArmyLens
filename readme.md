@@ -31,18 +31,14 @@ visual studio code
 
 ## 기술 스택 (Technique Used)
 ### Server(back-end)
-python
-css
-scss
-html
-javascript
+Netlify
+disqus
 teachable machine
  
 ### front-end
-Netlify
-teachable machine
-disqus
-proprofs
+html5
+css
+javascript
 
 ## 설치 안내 (Installation Process)
 ```bash
