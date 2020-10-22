@@ -23,17 +23,17 @@ AI learning pipeline
 메뉴별 기능 
 ## 컴퓨터 구성 / 필수 조건 안내 (Prerequisites)
 사용 기술
-python 3.8
-react native
-visual studio code
+* python 3.8
+* react native
+* visual studio code
 * ECMAScript 6 지원 브라우저 사용
 * 권장: Google Chrome 버젼 77 이상
 
 ## 기술 스택 (Technique Used)
 ### Server(back-end)
 Netlify
-disqus
 teachable machine
+disqus
  
 ### front-end
 html5
