@@ -52,4 +52,6 @@ $ yarn start or npm run start
 - You gun woo(pix_online@naver.com), Github Id: pix_online@naver.com
 
 ## 저작권 및 사용권 정보 (Copyleft / End User License)
+ * [Codepen](https://github.com/osamhack2020/web_armylens_armylens/blob/master/license_codepen.md)
+ * [html5up](https://github.com/osamhack2020/web_armylens_armylens/blob/master/license_html5up.md)
  * [MIT](https://github.com/osam2020-WEB/Sample-ProjectName-TeamName/blob/master/license.md)
