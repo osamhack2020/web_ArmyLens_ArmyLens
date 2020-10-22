@@ -10,8 +10,8 @@
 [추가예정]
 
 ## 개발 과정
-[추가예정]
-
+AI learning pipeline
+![Logo](https://i.imgur.com/iUYCfIU.png)
 ## 기능 설계
 [추가예정]
 
