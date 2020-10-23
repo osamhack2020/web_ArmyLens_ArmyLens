@@ -19,7 +19,7 @@ AI learning pipeline
 ![Logo](https://i.imgur.com/nsH6Ehi.png)
 
 ### 2. 홈페이지
-codepen, disquss 등 다양한 오픈소스들을 활용하여 html로 제작
+CodePen, disqus 등 다양한 오픈소스들을 활용하여 html로 제작
 ### 3. 일자별 진행도
 -10월 12일 개발자의 실수로 branch를 지우려다가 repository를 전부 지워버려 다음과 같이 작성합니다.-
 ## 기능 설계
