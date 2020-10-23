@@ -53,11 +53,13 @@ CodePen, disqus 등 다양한 오픈소스들을 활용하여 html로 제작
 Netlify
 teachable machine
 disqus
- 
+expo 
 ### front-end
 html5
 css
 javascript
+node.js
+
 
 [이미지추거예정]
 
