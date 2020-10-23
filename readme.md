@@ -55,6 +55,8 @@ html5
 css
 javascript
 
+[이미지추거예정]
+
 ## 설치 안내 (Installation Process)
 ```bash
 $ git clone git주소
