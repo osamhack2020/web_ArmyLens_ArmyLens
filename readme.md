@@ -20,11 +20,15 @@ AI learning pipeline
 
 ### 2. 홈페이지
 CodePen, disqus 등 다양한 오픈소스들을 활용하여 html로 제작
+![Logo](https://i.imgur.com/o35ObUo.png)
+[웹사이트 각 페이지별 기능과 사진 추가예정]
 ### 3. 일자별 진행도
 -10월 12일 개발자의 실수로 branch를 지우려다가 repository를 전부 지워버려 다음과 같이 작성합니다.-
+20.10.1~10.3 ...
+..
 ## 기능 설계
-[추가예정]
-메뉴별 기능 
+[data architecture 추가예정]
+
 ## 컴퓨터 구성 / 필수 조건 안내 (Prerequisites)
 사용 기술
 * python 3.8
