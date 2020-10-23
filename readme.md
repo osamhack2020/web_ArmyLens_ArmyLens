@@ -11,6 +11,10 @@
 
 ## 개발 과정
 ### 1. 머신러닝
+
+[사진은 모두 다듬을 예정입니다.]
+
+
 AI learning pipeline
 ![Logo](https://i.imgur.com/iUYCfIU.png)
 ![Logo](https://i.imgur.com/6IWPuHw.png)
