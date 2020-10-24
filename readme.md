@@ -16,16 +16,16 @@
 
 
 AI learning pipeline
-![Logo](https://i.imgur.com/iUYCfIU.png)
-![Logo](https://i.imgur.com/6IWPuHw.png)
-![Logo](https://i.imgur.com/5q92uZN.png)
-![Logo](https://i.imgur.com/9IpejUz.png)
-![Logo](https://i.imgur.com/nsH6Ehi.png)
+![Logo](https://i.imgur.com/y1gfbYX.png)
+![Logo](https://i.imgur.com/9vILPDt.png)
+![Logo](https://i.imgur.com/aW65jAI.png)
+![Logo](https://i.imgur.com/XG9lFzE.png)
+![Logo](https://i.imgur.com/S3dD1Lu.png)
 
 [각 순서별 설명 추가예정]
 ### 2. 홈페이지
 CodePen, disqus 등 다양한 오픈소스들을 활용하여 html로 제작
-![Logo](https://i.imgur.com/o35ObUo.png)
+![Logo](https://i.imgur.com/N8HqIFm.png)
 
 
 [웹사이트 각 페이지별 기능과 사진 추가예정]
@@ -38,7 +38,9 @@ CodePen, disqus 등 다양한 오픈소스들을 활용하여 html로 제작
 
 
 ## 기능 설계
-[data architecture 추가예정]
+
+#Data architecture
+![Logo](https://i.imgur.com/xZJrRoq.png)
 
 ## 컴퓨터 구성 / 필수 조건 안내 (Prerequisites)
 사용 기술
@@ -49,6 +51,7 @@ CodePen, disqus 등 다양한 오픈소스들을 활용하여 html로 제작
 * 권장: Google Chrome 버젼 77 이상
 
 ## 기술 스택 (Technique Used)
+![Logo](https://i.imgur.com/gd2BKMl.png)
 ### Server(back-end)
 Netlify
 teachable machine
