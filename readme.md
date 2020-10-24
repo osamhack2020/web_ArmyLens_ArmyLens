@@ -36,6 +36,15 @@ AI learning pipeline
 ### 2. 홈페이지
 CodePen, disqus 등 다양한 오픈소스들을 활용하여 제작
 ![Logo](https://i.imgur.com/N8HqIFm.png)
+![Logo](https://i.imgur.com/YgBlcPp.png)
+![Logo](https://i.imgur.com/RaoOBOG.png)
+![Logo](https://i.imgur.com/mBi0E6L.png)
+![Logo](https://i.imgur.com/Psgoj3V.png)
+![Logo](https://i.imgur.com/BfWZBP2.png)
+![Logo](https://i.imgur.com/6fz9jNe.png)
+![Logo](https://i.imgur.com/pKyVRKO.png)
+![Logo](https://i.imgur.com/30Ypp8s.png)
+
 
 
 [웹사이트 각 페이지별 기능과 사진 추가예정]
