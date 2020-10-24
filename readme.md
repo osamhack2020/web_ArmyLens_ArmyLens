@@ -26,9 +26,15 @@ AI 기술(머신러닝)을 활용한 통합 안보 위협요소 식별 어플
 ### 1. 머신러닝
 ### AI learning pipeline
 ![Logo](https://i.imgur.com/y1gfbYX.png)
+
+머신러닝 과정은 크게 4단계로 나누어 진행하였습니다. 그 단계는 다음의 자료와 같습니다.
+
 ![Logo](https://i.imgur.com/9vILPDt.png)
+
 ![Logo](https://i.imgur.com/aW65jAI.png)
+
 ![Logo](https://i.imgur.com/XG9lFzE.png)
+
 ![Logo](https://i.imgur.com/S3dD1Lu.png)
 
 
