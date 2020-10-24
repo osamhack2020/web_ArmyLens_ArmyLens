@@ -3,7 +3,7 @@
 
 AI 기술(머신러닝)을 활용한 통합 안보 위협요소 식별 어플
 
-## 팀 소개
+# 팀 소개
 
 ![Logo](https://i.imgur.com/xHRPFFh.png)
 
