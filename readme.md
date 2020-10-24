@@ -12,9 +12,6 @@
 ## 개발 과정
 ### 1. 머신러닝
 
-[사진은 모두 다듬을 예정입니다.]
-
-
 AI learning pipeline
 ![Logo](https://i.imgur.com/y1gfbYX.png)
 ![Logo](https://i.imgur.com/9vILPDt.png)
@@ -22,7 +19,7 @@ AI learning pipeline
 ![Logo](https://i.imgur.com/XG9lFzE.png)
 ![Logo](https://i.imgur.com/S3dD1Lu.png)
 
-[각 순서별 설명 추가예정]
+
 ### 2. 홈페이지
 CodePen, disqus 등 다양한 오픈소스들을 활용하여 html로 제작
 ![Logo](https://i.imgur.com/N8HqIFm.png)
@@ -39,7 +36,7 @@ CodePen, disqus 등 다양한 오픈소스들을 활용하여 html로 제작
 
 ## 기능 설계
 
-#Data architecture
+# Data architecture
 ![Logo](https://i.imgur.com/xZJrRoq.png)
 
 ## 컴퓨터 구성 / 필수 조건 안내 (Prerequisites)
