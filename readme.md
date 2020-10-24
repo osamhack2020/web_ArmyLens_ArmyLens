@@ -36,7 +36,7 @@ CodePen, disqus 등 다양한 오픈소스들을 활용하여 html로 제작
 
 ## 기능 설계
 
-# Data architecture
+### Data architecture
 ![Logo](https://i.imgur.com/xZJrRoq.png)
 
 ## 컴퓨터 구성 / 필수 조건 안내 (Prerequisites)
@@ -48,20 +48,7 @@ CodePen, disqus 등 다양한 오픈소스들을 활용하여 html로 제작
 * 권장: Google Chrome 버젼 77 이상
 
 ## 기술 스택 (Technique Used)
-![Logo](https://i.imgur.com/gd2BKMl.png)
-### Server(back-end)
-Netlify
-teachable machine
-disqus
-expo 
-### front-end
-html5
-css
-javascript
-node.js
-
-
-[이미지추거예정]
+![Logo](https://i.imgur.com/z1i7GQo.png)
 
 ## 설치 안내 (Installation Process)
 ```bash
