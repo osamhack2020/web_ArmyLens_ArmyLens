@@ -43,7 +43,7 @@ AI 기술(머신러닝)을 활용한 통합 안보 위협요소 식별 어플
 
 ![Logo](https://i.imgur.com/N8HqIFm.png)
 
-### Armylens는 크게 5가지 페이지로 나누어져 있습니다. 페이지의 다음은 페이지의 기능에 대한 설명입니다.
+### Armylens는 크게 5가지 페이지로 나누어져 있습니다. 다음은 페이지의 기능에 대한 설명입니다.
 
 ![Logo](https://i.imgur.com/YgBlcPp.png)
 ![Logo](https://i.imgur.com/RaoOBOG.png)
