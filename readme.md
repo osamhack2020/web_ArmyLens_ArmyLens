@@ -33,7 +33,7 @@ AI 기술(머신러닝)을 활용한 통합 안보 위협요소 식별 어플
 
 
 ### 2. 홈페이지
-CodePen, disqus 등 다양한 오픈소스들을 활용하여 제작
+### CodePen, disqus 등 다양한 오픈소스들을 활용하여 제작
 ![Logo](https://i.imgur.com/N8HqIFm.png)
 ![Logo](https://i.imgur.com/YgBlcPp.png)
 ![Logo](https://i.imgur.com/RaoOBOG.png)
