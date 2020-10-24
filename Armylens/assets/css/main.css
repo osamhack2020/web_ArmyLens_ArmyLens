@@ -1755,14 +1755,14 @@ input, select, textarea {
 		}
 
 		.image.avatar48 {
-			width: 48px;
-			height: 48px;
+			width: 60px;
+			height: 60px;
 			background: #f00;
 		}
 
 			.image.avatar48 img {
-				width: 48px;
-				height: 48px;
+				width: 60px;
+				height: 60px;
 			}
 
 		.image.fit {
@@ -2263,6 +2263,7 @@ input, select, textarea {
 				background-color: #e8edec;
 			}
 
+
 /* Wide */
 
 	@media screen and (min-width: 961px) and (max-width: 1880px) {
@@ -2638,7 +2639,7 @@ input, select, textarea {
 	  }
 	  
 	  .file-upload {
-		width: 600px;
+		width: 100%;
 		margin: 0 auto;
 		padding: 20px;
 	  }

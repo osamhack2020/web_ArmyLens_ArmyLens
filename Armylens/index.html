@@ -11,6 +11,9 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="assets/css/main.css" />
+	<!-- Go to www.addthis.com/dashboard to customize your tools -->
+	<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5f8bbec071ab59fc"></script>
+
 </head>
 
 <body class="is-preload">
@@ -34,6 +37,7 @@
 					<li><a href="#portfolio" id="portfolio-link"><span class="icon solid fa-th">지뢰 종류</span></a></li>
 					<li><a href="#about" id="about-link"><span class="icon solid fa-user">사고 사례</span></a></li>
 					<li><a href="#contact" id="contact-link"><span class="icon solid fa-envelope">건의사항</span></a></li>
+					<li><a href="#quizman" id="quizman-link"><span class="icon solid fa-check">지뢰 퀴즈</span></a></li>
 				</ul>
 			</nav>
 
@@ -43,11 +47,6 @@
 
 			<!-- Social Icons -->
 			<ul class="icons">
-				<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-				<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-				<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-				<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-				<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
 			</ul>
 
 		</div>
@@ -74,6 +73,8 @@
 						<div class="file-upload-content">
 							<img class="file-upload-image" id="mine-image" src="#" alt="your image" />
 							<p class="result-message"></p>
+							<!-- Go to www.addthis.com/dashboard to customize your tools -->
+							<div class="addthis_inline_share_toolbox_huii"></div>
 							<div class="image-title-wrap">
 								<button type="button" onclick="removeUpload()" class="remove-image">취소하기 <span
 										class="image-title">Uploaded Image</span></button>
@@ -119,39 +120,44 @@
 							prediction.sort((a, b) => parseFloat(b.probability) - parseFloat(a.probability));
 							console.log(prediction[0].className);
 							var resultMessage
-							switch (prediction[0].className) {
-								case "M16 mine":
-									resultMessage = "M16 도약지뢰"
-									break;
-								case "M14 mine":
-									resultMessage = "M14 발목지뢰"
-									break;
-								case "PFM-1":
-									resultMessage = "M16 도약지뢰"
-									break;
-								case "M15 mine":
-									resultMessage = "M15 대전차지뢰"
-									break;
-								case "M18A1":
-									resultMessage = "M18A1 클레이모어"
-									break;
-								case "M2 SLAM":
-									resultMessage = "M2 SLAM 다목적지뢰"
-									break;
-								case "Hafthohlladung":
-									resultMessage = "흡착지뢰"
-									break;
-								case "XM1100 IMS":
-									resultMessage = "XM1100 IMS 거미지뢰"
-									break;
-								case "MM-1 Minimore":
-									resultMessage = "MM-1 미니모어"
-									break;
-								case "Wooden-box Mines":
-									resultMessage = "목함지뢰"
-									break;
-								default:
-									resultMessage = "알 수 없음"
+							if (prediction[0].probability.toFixed(2) * 100 > 60) {
+								switch (prediction[0].className) {
+									case "M16 mine":
+										resultMessage = "M16 도약지뢰는 엄청난 살상력을 자랑하는데, 지뢰가 터지는 구역 중 5~7m은 무조건 사망, 8~15m은 70~80% 사망, 16m 부터는 심한 중상을 입으며, 지뢰로 부터 35m 이상 떨어진 구역은 중경상을 입는다."
+										break;
+									case "M14 mine":
+										resultMessage = "M14 발목지뢰의 위력은 신체 일부가 절단될 정도로 심각하지만 M14 지뢰로 인해 사망하는 일은 거의 없고, 피해 규모도 그리 넓진 않다."
+										break;
+									case "PFM-1":
+										resultMessage = "PFM-1 나비지뢰는 나비날개 형태의 외관으로 인해 수직으로 떨어지지 않고 빙글빙글 돌면서 근처의 여러 지역으로 퍼져나가기 때문에 살포되는 곳이 아주 많아진다. 아이들이 장난감인줄 알고 가지고 놀다가 사고가 많이 일어나는걸로 악명이 높다."
+										break;
+									case "M15 mine":
+										resultMessage = "M15 대전차지뢰는 격발 중량이 136~182kg으로 꽤 낮은 편이다. 즉, 경차가 밟아도 터지며 [4], 성인 남성이 도움닫기 하는 정도의 충격으로도 폭발할 수 있다. 또한 무식하리만치 단순한 구조로 인해 그 이하의 충격이나 무게로 절대 안 터진다고도 장담할 수 없다."
+										break;
+									case "M18A1":
+										resultMessage = "M18A1 클레이모어는 일반적으론 전기식 뇌관이나 비전기식 뇌관을 클레이모어에 설치한다. 이 기폭장치(도화선 라이터, 격발기)를 눌러 뇌관을 터트릴 시에 클레이모어안의 C-4가 점화되면서 클레이모어 안에 들어 있는 약 700개의 쇠구슬이 하늘을 향해 발사되며 전방으로 산탄총처럼 튀어나간다."
+										break;
+									case "M2 SLAM":
+										resultMessage = "M2 SLAM 다목적지뢰는 중량이 1kg 밖에 나가지 않는 소형 폭약이지만, 자가단조(EFP) 탄두 덕분에 8m 거리에서 40mm 가량의 관통력을 보이며, 또한 다양한 방식으로 기폭시킬 수 있을 뿐만 아니라 적의 해체 시도를 막기 위해 자폭 기능도 갖춘 해체방지형 무기이기도 하다."
+										break;
+									case "Hafthohlladung":
+										resultMessage = "흡착지뢰는 성형작약을 자석으로 전차 장갑 표면에 붙인 후 신관을 작동시키면 몇 초 후에 폭발해서 전차를 잡는 무기다. 위력은 확실해서 붙이기만 하면 당시의 모든 전차를 일격에 잡을 수 있다."
+										break;
+									case "XM1100 IMS":
+										resultMessage = "XM1100 IMS 거미지뢰는 격발시 적의 장갑차량을 뚫는 철갑 관통탄을 중심으로 16개의 대인살상용 산탄이 원형으로 발사된다. MEFP탄두를 사용. 재블린처럼 장갑 차량의 비교적 취약한 상부를 노리는 탑 다운 어택을 한다."
+										break;
+									case "MM-1 Minimore":
+										resultMessage = "MM-1 미니모어는 클레이모어와 같이 지향성으로, 살상범위는 클레이모어의 15미터 거리에서 15미터 폭 보다 퍽 좁은, 15미터 거리에서 4.9미터 범위(높이 2피트) 패턴을 가지고 있다. 고로 넓은 범위를 커버하려면 다수를 배치한다."
+										break;
+									case "Wooden-box Mines":
+										resultMessage = "목함지뢰는 대인 살상용 지뢰의 한 종류로, 나무상자 안에 TNT 폭약과 같은 폭발물이 들어있는 지뢰이다. 나무 상자 뚜껑을 열거나, 혹은 줄을 건드리면 터지는 방식이다."
+										break;
+									default:
+										resultMessage = "알 수 없음"
+								}
+							}
+							else {
+								resultMessage = "지뢰가 아닙니다."
 							}
 							$('.result-message').html(resultMessage);
 							for (let i = 0; i < maxPredictions; i++) {
@@ -175,10 +181,10 @@
 					<h2>지뢰 종류</h2>
 				</header>
 
-				<pre>지뢰는 땅에 파묻은 후에 외부의 압력을 받으면 뇌관을 작동하여 폭발시키는 무기다.
-특히 지뢰는 매설 후에 발견 및 제거가 어려운데 그 이유로는 비인도적 무기금지협약 이전에 만들어진 지뢰의 경우
-플라스틱으로 만들어진 경우가 흔하며, 이로인해 지뢰 탐지기에 탐지되지 않는 경우가 허다하다.
-				</pre>
+				<p>지뢰는 땅에 파묻은 후에 외부의 압력을 받으면 뇌관을 작동하여 폭발시키는 무기다.<br>
+					특히 지뢰는 매설 후에 발견 및 제거가 어려운데 그 이유로는 비인도적 무기금지협약 이전에 만들어진 지뢰의 경우<br>
+					플라스틱으로 만들어진 경우가 흔하며, 이로인해 지뢰 탐지기에 탐지되지 않는 경우가 허다하다.<br>
+				</p>
 
 				<div class="row">
 					<div class="col-4 col-12-mobile">
@@ -245,13 +251,15 @@
 				<a href="https://namu.wiki/w/%EC%A7%80%EB%A2%B0#s-1.2.1" class="image featured"><img
 						src="images/pic08.jpg" alt="" /></a>
 
-				<p>Tincidunt eu elit diam magnis pretium accumsan etiam id urna. Ridiculus
-					ultricies curae quis et rhoncus velit. Lobortis elementum aliquet nec vitae
-					laoreet eget cubilia quam non etiam odio tincidunt montes. Elementum sem
-					parturient nulla quam placerat viverra mauris non cum elit tempus ullamcorper
-					dolor. Libero rutrum ut lacinia donec curae mus vel quisque sociis nec
-					ornare iaculis.</p>
-
+				<p>지뢰는 그 위력도 무시할 수 없지만, 불발률이 높고, 광범위한 지역에 매설되어 있어 완전 제거가 어렵다는 점에서 더욱 위험한 무기체계이다.<br>
+					6.25 전쟁 당시 한반도 전역에 매설된 후 제거하지 못한 유실 지뢰로 인하여 매년 인명손실, 환경보존의 저해 요소 등 각종 문제가 야기되는데 국내의 경우 매년 1건 이상의 지뢰에
+					의한 피해가 발생하고 있다.</p>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/W-9L21c5YVU" frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+					allowfullscreen></iframe>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/0dLNFqUoXY8" frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+					allowfullscreen></iframe>
 			</div>
 		</section>
 
@@ -263,10 +271,8 @@
 					<h2>건의사항</h2>
 				</header>
 
-				<p>Elementum sem parturient nulla quam placerat viverra
-					mauris non cum elit tempus ullamcorper dolor. Libero rutrum ut lacinia
-					donec curae mus. Eleifend id porttitor ac ultricies lobortis sem nunc
-					orci ridiculus faucibus a consectetur. Porttitor curae mauris urna mi dolor.</p>
+				<p>아미 렌즈 서비스에 대한 문의 사항이나 문제점 또는 개선사항이 있으면<br>
+					이메일 : starkingstar@naver.com 혹은 아래의 건의사항에 작성해 주시기 바랍니다.</p>
 
 				<div id='disqus_thread'></div>
 				<script>
@@ -292,6 +298,29 @@
 
 
 			</div>
+		</section>
+
+		<!--퀴즈추가-->
+		<section id="quizman" class="five">
+			<div class="container" height: 1000px>
+
+				<header>
+					<h2>지뢰 퀴즈</h2>
+				</header>
+				<p style="height: 800px">
+					<iframe name='proprofs' id='proprofs' width='100%' height='100%' frameborder=0 marginwidth=0
+						marginheight=0
+						src='https://www.proprofs.com/quiz-school/story.php?title=market-research-quiz-template_2732gd&id=2927436&ew=430'>
+					</iframe>
+				<div style='font-size:10px; font-family:Arial, Helvetica, sans-serif; text-align:left;'><a
+						href='https://www.proprofs.com/quiz-school/story.php?title=market-research-quiz-template_2732gd'
+						target='_blank' title='ProProfs - 지뢰 퀴즈'>ProProfs - 지뢰 퀴즈</a> » <a
+						href='https://www.proprofs.com/quiz-school/online-assessment-software/'
+						title='Create online assessment' target='_blank' rel='nofollow'>Create online assessment</a>
+				</div>
+				</p>
+			</div>
+
 		</section>
 
 	</div>
