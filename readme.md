@@ -23,22 +23,7 @@ AI 기술(머신러닝)을 활용한 통합 안보 위협요소 식별 어플
 [추가예정]
 
 # 개발 과정
-## 1. 머신러닝
-### AI learning pipeline
-![Logo](https://i.imgur.com/y1gfbYX.png)
-
-머신러닝 과정은 4단계로 나누어 진행하였습니다. 그 단계는 다음의 자료와 같습니다.
-
-![Logo](https://i.imgur.com/9vILPDt.png)
-
-![Logo](https://i.imgur.com/aW65jAI.png)
-
-![Logo](https://i.imgur.com/XG9lFzE.png)
-
-![Logo](https://i.imgur.com/S3dD1Lu.png)
-
-
-## 2. WEBSITE & APP
+## 1. WEBSITE & APP
 ### CodePen, disqus 등 다양한 오픈소스들을 활용하여 제작
 
 ![Logo](https://i.imgur.com/N8HqIFm.png)
@@ -53,6 +38,20 @@ Armylens는 5가지 페이지로 나누어져 있고 그 기능은 다음과 같
 ![Logo](https://i.imgur.com/6fz9jNe.png)
 ![Logo](https://i.imgur.com/pKyVRKO.png)
 ![Logo](https://i.imgur.com/30Ypp8s.png)
+
+## 2. 머신러닝
+### AI learning pipeline
+![Logo](https://i.imgur.com/y1gfbYX.png)
+
+머신러닝 과정은 4단계로 나누어 진행하였습니다. 그 단계는 다음의 자료와 같습니다.
+
+![Logo](https://i.imgur.com/9vILPDt.png)
+
+![Logo](https://i.imgur.com/aW65jAI.png)
+
+![Logo](https://i.imgur.com/XG9lFzE.png)
+
+![Logo](https://i.imgur.com/S3dD1Lu.png)
 
 
 
