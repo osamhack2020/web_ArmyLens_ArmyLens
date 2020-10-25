@@ -47,7 +47,7 @@ Armylens는 5가지 페이지로 나누어져 있고 그 기능은 다음과 같
 ### AI learning pipeline
 ![Logo](https://i.imgur.com/y1gfbYX.png)
 
-머신러닝 과정은 4단계로 나누어 진행하였습니다. 그 단계는 다음의 자료와 같습니다.
+머신러닝 과정은 4단계로 나누어 진행하였습니다.
 
 ![Logo](https://i.imgur.com/9vILPDt.png)
 
