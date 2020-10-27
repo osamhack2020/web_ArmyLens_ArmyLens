@@ -24,7 +24,7 @@ AI 기술(머신러닝)을 활용한 통합 안보 위협요소 식별 어플
 [추가예정]
 
 ## 프로젝트 발표 동영상
-<iframe width="560" height="315" src="https://youtu.be/UJykk1T2HlM" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="360" src="https://www.youtube.com/embed/6Az2cNU7gUw" frameborder="0" gesture="media" allowfullscreen=""></iframe>
 
 
 
