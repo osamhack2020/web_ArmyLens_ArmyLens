@@ -21,7 +21,8 @@ AI 기술(머신러닝)을 활용한 통합 안보 위협요소 식별 어플
 유실지뢰는 폭우, 태풍을 따라 이동하며 그 위치를 파악하기가 불가능하다. 따라서 One-Stop Service를 통하여 피해를 줄여보자는 취지로 지뢰 식별을 우선적으로 진행하였다.
 
 ## 프로젝트 시연 동영상
-[추가예정]
+
+[![Logo](http://i.ytimg.com/vi/W0dg0QTo8jk/0.jpg)](https://youtu.be/W0dg0QTo8jk)
 
 WEB : https://optimistic-wright-b97969.netlify.app
 
