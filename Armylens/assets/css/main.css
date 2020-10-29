@@ -1826,7 +1826,7 @@ input, select, textarea {
 
 		ul.icons a {
 			display: inline-block;
-			width: 2em;
+			width: 6em;
 			height: 2em;
 			line-height: 2em;
 			text-align: center;
@@ -2083,7 +2083,7 @@ input, select, textarea {
 		}
 
 			#header .icons a {
-				color: #41484c;
+				color: #cc0033;
 				-moz-transition: color 0.35s ease-in-out;
 				-webkit-transition: color 0.35s ease-in-out;
 				-ms-transition: color 0.35s ease-in-out;
@@ -2091,7 +2091,7 @@ input, select, textarea {
 			}
 
 				#header .icons a:hover {
-					color: #fff;
+					color: #0033cc;
 				}
 
 	#logo {
