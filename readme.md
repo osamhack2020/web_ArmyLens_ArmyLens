@@ -138,12 +138,26 @@ Armylens는 5가지 페이지로 나누어져 있고 그 기능은 다음과 같
 ![Logo](https://i.imgur.com/z1i7GQo.png)
 
 ## 설치 안내 (Installation Process)
+클론 생성
 ```bash
-$ git clone git주소
+$ git clone https://github.com/osamhack2020/web_armylens_armylens
 $ yarn or npm install
 $ yarn start or npm run start
 ```
- 
+
+크롤링
+```bash
+pip install bs4
+pip install selenium
+pip install google_image_download
+```
+
+앱제작
+```bash
+expo install react-native-webview
+npm install -g expo-cli  yarn global add expo-cli
+expo install expo-permissions
+```
 ## 팀 정보 (Team Information)
 - Park jun su(starkingstar@naver.com), Github Id: starkingstar@naver.com
 - You gun woo(pix_online@naver.com), Github Id: pix_online@naver.com
