@@ -24,6 +24,7 @@ AI 기술(머신러닝)을 활용한 통합 안보 위협요소 식별 어플
 [추가예정]
 
 WEB : https://optimistic-wright-b97969.netlify.app
+
 APP : https://drive.google.com/file/d/1LE2IPJ3Q5sHrjgpCYY30L2VAqGuyFO_F/view?usp=sharing
 
 ## 프로젝트 발표 동영상
